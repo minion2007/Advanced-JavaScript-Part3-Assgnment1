@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Object type with constructor</title>
+<script>
+ function Car(make,model,year){
+    this.make = make;
+	this.model=model;
+	this.year=year;
+	}
+	
+	var myCar = new Car("BMW","X5","2016");
+	var secondCar=new Car("Mercedes","GLA-Class","2015");
+	var thirdCar=new Car("Audi","Q7","2016");
+	alert(myCar.model+" is my first car");
+	alert("I love "+ secondCar.make);
+	alert("My "+thirdCar.make+" is "+ thirdCar.year + " make");
+</script>
